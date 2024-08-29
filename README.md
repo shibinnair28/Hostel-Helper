@@ -5,7 +5,7 @@
 
 
 
-![Logo](https://github.com/NJ-7021/Hostel-Helper/blob/main/app/src/main/res/drawable/Screenshot%20(44).png)
+<img src="https://github.com/NJ-7021/Hostel-Helper/blob/main/app/src/main/res/drawable/Screenshot%20(44).png" alt="Logo" width="300"/>
 
 
 ## Libraries Used
