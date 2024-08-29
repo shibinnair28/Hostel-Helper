@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#00A7DB" /> <!-- Background color of the button -->
+    <corners android:radius="27dp" /> <!-- Adjust the radius to change the curvature -->
+</shape>

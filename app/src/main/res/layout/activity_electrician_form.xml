@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_backgroung"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="517dp"
+        android:layout_height="176dp"
+        android:background="@drawable/electrician111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="112dp"
+        android:width="150dp"
+        android:height="100dp"
+        android:fontFamily="@font/rubik_medium"
+        android:gravity="center"
+        android:text="Electric Service"
+        android:textColor="#ffffff"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="307dp"
+        android:layout_height="371dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="30dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginVertical="25dp"
+            android:gravity="center"
+            android:text="Provide Information"
+            android:fontFamily="@font/rubik_medium"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/roomnoedittext"
+            android:layout_width="270dp"
+            android:layout_height="57dp"
+            android:layout_marginVertical="100dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/rubik_medium"
+            android:layout_marginTop="40dp"
+            android:hint="Roomno./Bedno."
+            android:paddingHorizontal="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/problem"
+            android:layout_width="270dp"
+            android:layout_height="58dp"
+            android:layout_marginVertical="180dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/rubik_medium"
+            android:layout_marginTop="20dp"
+            android:hint="Problem:"
+            android:paddingHorizontal="10dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="172dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="270dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="67dp"
+            android:background="@drawable/button_shape"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+
+
+            android:fontFamily="@font/rubik_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

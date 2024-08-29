@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_backgroung">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Warden Interface"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Event Name -->
+
+    <EditText
+        android:id="@+id/Noticename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30EDE6E6"
+        android:drawableLeft="@drawable/announcement"
+        android:drawablePadding="20dp"
+        android:hint="Notice Name"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    <!-- Event Date -->
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/rubik_medium"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Noticename"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30EDE6E6"
+        android:drawableLeft="@drawable/date"
+        android:drawablePadding="20dp"
+        android:hint="Date"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+
+    <!-- Event Description -->
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:layout_below="@+id/Date"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30EDE6E6"
+        android:drawableLeft="@drawable/pen"
+        android:drawablePadding="20dp"
+        android:hint="Notice Description"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    <!-- Add Event Button -->
+
+    <!-- Delete Event Button -->
+
+    <Button
+        android:id="@+id/buttonAddNotice"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Description"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="20dp"
+        android:text="Add Notice"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonDeleteNotice"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Description"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="30dp"
+        android:text="Delete Notice"
+        android:backgroundTint="@color/black"/>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HostelHelper"
+        tools:targetApi="31">
+        <activity
+            android:name=".warden.Warden_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".warden.Holiday_List"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".Forgot_Password"
+            android:exported="false" />
+        <activity
+            android:name=".warden.ViewComplain_Plumber"
+            android:exported="false" />
+        <activity
+            android:name=".warden.ViewComplain_carpenter"
+            android:exported="false" />
+        <activity
+            android:name=".warden.Warden_Complain_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".warden.ViewComplain_electrician"
+            android:exported="false" />
+        <activity
+            android:name=".warden.Adddeleteevents"
+            android:exported="false" />
+        <activity
+            android:name=".student.complainforms.Carpenter_Form"
+            android:exported="false" />
+        <activity
+            android:name=".student.complainforms.Plumber_Form"
+            android:exported="false" />
+        <activity
+            android:name=".student.complainforms.Electrician_Form"
+            android:exported="false" />
+        <activity
+            android:name=".student.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".student.Complain_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".warden.Warden_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".student.feedpage_student"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

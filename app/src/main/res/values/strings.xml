@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">HostelHelper</string>
+    <string name="m1">Not yet registered? <U>SignUp</U> now!!</string>
+    <string-array name="january_2024">
+        <item>New Year\'s Day - January 1, 2024</item>
+    </string-array>
+
+
+    <string-array name="february_2024"></string-array>
+
+    <string-array name="march_2024">
+        <item>Maha Shivaratri - March 4, 2024</item>
+        <item>Holi - March 17, 2024</item>
+    </string-array>
+
+    <string-array name="april_2024">
+        <item>Good Friday - April 5, 2024</item>
+        <item>Ram Navami - April 13, 2024</item>
+        <item>Mahavir Jayanti - April 20, 2024</item>
+    </string-array>
+
+    <string-array name="may_2024">
+        <item>Buddha Purnima - May 8, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for July -->
+    <string-array name="july_2024">
+        <item>Rath Yatra - July 10, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for August -->
+    <string-array name="august_2024">
+        <item>Independence Day - August 15, 2024</item>
+        <item>Janmashtami - August 24, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for September -->
+    <string-array name="september_2024">
+        <item>Ganesh Chaturthi - September 2, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for October -->
+    <string-array name="october_2024">
+        <item>Gandhi Jayanti - October 2, 2024</item>
+        <item>Dussehra - October 8, 2024</item>
+        <item>Diwali - October 27, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for November -->
+    <string-array name="november_2024">
+        <item>Guru Nanak Jayanti - November 12, 2024</item>
+    </string-array>
+
+    <!-- Add holidays for December -->
+    <string-array name="december_2024">
+        <item>Christmas Day - December 25, 2024</item>
+    </string-array>
+</resources>
+
+

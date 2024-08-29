@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom layer: Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#50FFFFFF"/> <!-- Adjust transparency as needed -->
+            <corners android:radius="16dp"/> <!-- Adjust corner radius as needed -->
+        </shape>
+    </item>
+
+    <!-- Middle layer: Gradient for smoother transition -->
+    <item android:top="1dp" android:right="1dp" android:left="1dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#00FFFFFF"
+                android:centerColor="#50FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:angle="45"/> <!-- Adjust angle as needed for gradient direction -->
+            <corners android:radius="16dp"/> <!-- Same corner radius as background -->
+        </shape>
+    </item>
+
+    <!-- Top layer: Shadow -->
+    <item android:top="2dp" android:right="2dp" android:left="2dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#22000000"
+                android:endColor="#00000000"
+                android:angle="45"/> <!-- Adjust angle as needed for gradient direction -->
+            <corners android:radius="16dp"/> <!-- Same corner radius as background -->
+        </shape>
+    </item>
+
+</layer-list>

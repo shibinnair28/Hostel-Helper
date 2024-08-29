@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391808663424",
+    "project_id": "hostelhelper-dad37",
+    "storage_bucket": "hostelhelper-dad37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391808663424:android:66dd4e296f254c22b30b65",
+        "android_client_info": {
+          "package_name": "com.example.hostelhelper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbZvYR_9i5qQJhOwzD7-2exu9e0NDo-Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

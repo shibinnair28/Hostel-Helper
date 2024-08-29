@@ -1,0 +1,15 @@
+<!-- res/drawable/background_plumber.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color for the rectangle -->
+    <item android:drawable="@android:color/darker_gray" />
+
+    <!-- Icon for the plumber -->
+    <item
+        android:drawable="@drawable/electrician"
+        android:gravity="center"
+        android:width="48dp"
+        android:height="48dp"
+        android:top="16dp" />
+
+</layer-list>
