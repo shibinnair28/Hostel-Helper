@@ -5,6 +5,9 @@
 
 
 
+![Logo](https://github.com/NJ-7021/Hostel-Helper/blob/main/app/src/main/res/drawable/logo.png)
+
+
 ## Libraries Used
 
 - **Android Studio**: Development environment for building and testing the app.
