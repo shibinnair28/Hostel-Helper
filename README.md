@@ -35,5 +35,6 @@ Before you begin, ensure you have the following software installed on your syste
    First, clone the repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/NJ-7021/Hostel-Helper
+   git clone https://github.com/shibinnair28/Hostel-Helper
+
 
