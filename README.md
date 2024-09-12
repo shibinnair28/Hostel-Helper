@@ -36,7 +36,4 @@ Before you begin, ensure you have the following software installed on your syste
 
    ```bash
    git clone https://github.com/NJ-7021/Hostel-Helper
-## Contact
 
-This template includes sections for an introduction, features, technologies used, getting started instructions, screenshots, and licensing. You can customize it further based on your project's specifics.
-For any questions or feedback, feel free to reach out to [nikhil1402m@gmail.com].
